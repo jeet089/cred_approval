@@ -80,7 +80,11 @@ Frontend runs on: http://localhost:3000
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:4000/api/*
 - **Dev Tools**: http://localhost:4000/dev/dashboard (Phoenix LiveDashboard)`
-- 
+  
+### Accessing Development Emails
+In development mode, sent emails can be viewed at:
+Swoosh Mailbox: http://localhost:4000/dev/mailbox
+
 
 ### Manual Testing
 1. Start both servers
