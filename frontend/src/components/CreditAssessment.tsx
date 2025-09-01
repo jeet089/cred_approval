@@ -139,7 +139,7 @@ const CreditAssessment: React.FC = () => {
               onChange={(e) => setRiskAssessment(prev => ({ ...prev, has_job: e.target.checked }))}
               className="w-4 h-4 text-blue-600"
             />
-            <span className="text-gray-700">Do you have a paying job? (4 points)</span>
+            <span className="text-gray-700">Do you have a paying job?</span>
           </label>
           
           <label className="flex items-center space-x-3">
@@ -149,7 +149,7 @@ const CreditAssessment: React.FC = () => {
               onChange={(e) => setRiskAssessment(prev => ({ ...prev, consistent_job: e.target.checked }))}
               className="w-4 h-4 text-blue-600"
             />
-            <span className="text-gray-700">Did you consistently have a paying job for past 12 months? (2 points)</span>
+            <span className="text-gray-700">Did you consistently have a paying job for past 12 months?</span>
           </label>
           
           <label className="flex items-center space-x-3">
@@ -159,7 +159,7 @@ const CreditAssessment: React.FC = () => {
               onChange={(e) => setRiskAssessment(prev => ({ ...prev, owns_home: e.target.checked }))}
               className="w-4 h-4 text-blue-600"
             />
-            <span className="text-gray-700">Do you own a home? (2 points)</span>
+            <span className="text-gray-700">Do you own a home?</span>
           </label>
           
           <label className="flex items-center space-x-3">
@@ -169,7 +169,7 @@ const CreditAssessment: React.FC = () => {
               onChange={(e) => setRiskAssessment(prev => ({ ...prev, owns_car: e.target.checked }))}
               className="w-4 h-4 text-blue-600"
             />
-            <span className="text-gray-700">Do you own a car? (1 point)</span>
+            <span className="text-gray-700">Do you own a car?</span>
           </label>
           
           <label className="flex items-center space-x-3">
@@ -179,7 +179,7 @@ const CreditAssessment: React.FC = () => {
               onChange={(e) => setRiskAssessment(prev => ({ ...prev, additional_income: e.target.checked }))}
               className="w-4 h-4 text-blue-600"
             />
-            <span className="text-gray-700">Do you have any additional source of income? (2 points)</span>
+            <span className="text-gray-700">Do you have any additional source of income?</span>
           </label>
         </div>
         
